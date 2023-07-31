@@ -6,19 +6,16 @@
 }
 
 section{
-    background-color: rgb(88, 60, 190);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 25px;
-    border-radius: 15px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     height: 60vh;
     width: 60vw;
-    color: white;
 }
 
 #email{
@@ -36,11 +33,19 @@ section{
 }
 
 .right{
+    background-color: black;
+    height: 100%;
     text-align: center;
     width: 30%;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .left{
+    background-image: url(imagens/3376592.jpg);
     width: 70%;
+    height: 100%;
+    color: white;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
 }
 
